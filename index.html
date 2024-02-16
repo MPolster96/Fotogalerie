@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>23.09 2023</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body onload="render()">
+    <!-- Header -->
+    <header>
+      <h1>Unsere Hochzeit</h1>
+    </header>
+
+    <!-- MainSektion: Image-Container -->
+    <div id="img-container"></div>
+
+    <!-- MainSektion: Fullscreen -->
+    <div id="fullscreen" class="full-screen d-none">
+      <img
+        onclick="exitFullScreen()"
+        class="close-img"
+        src="./img/cancel.png"
+        alt="close"
+      />
+      <div id="fullscreen-imgcontainer"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div>Bilder sind von <a href="https://pixabay.com/">Pixabay</a></div>
+      <div>made by Max Polster</div>
+      <div class="footer-link-sektion">
+        <img class="footer-img" src=".#" alt="Facebook" />
+        <img class="footer-img" src="#" alt="Instagram" />
+        <img class="footer-img" src="#" alt="Twitter" />
+      </div>
+    </footer>
+  </body>
+</html>
